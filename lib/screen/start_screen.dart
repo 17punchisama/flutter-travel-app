@@ -21,7 +21,7 @@ class StartScreen extends StatelessWidget {
 
                 const Text(
                   //showing app name
-                  'APP NAME',
+                  'APP NAME อะไรก็ไม่รู้',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 36,
