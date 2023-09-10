@@ -10,8 +10,10 @@ class ResetPasswordScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: Text('This is Reset Start Screen'),
+            child: Text('This is Reset Start Screen',),
           ),
+          const Text('the most beautiful in the univesity'),
+
         ],
       ),
     );
