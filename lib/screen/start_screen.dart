@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_project/screen/reset_password_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -174,7 +175,10 @@ class StartScreen extends StatelessWidget {
               ),
               TextButton(
                 //create text button for 'Reset Password'
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                   MaterialPageRoute(builder: (context) => const ResetPasswordScreen()),);
+                },
                 style: TextButton.styleFrom(
                   textStyle: const TextStyle(fontSize: 16),
                 ),
