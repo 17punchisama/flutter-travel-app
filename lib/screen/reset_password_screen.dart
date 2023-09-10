@@ -8,7 +8,11 @@ class ResetPasswordScreen extends StatelessWidget {
     return const Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [],
+        children: [
+          Text(
+            'This is Reset Password Screen',
+          )
+        ],
       ),
     );
   }
