@@ -12,8 +12,6 @@ class ResetPasswordScreen extends StatelessWidget {
           Center(
             child: Text('This is Reset Start Screen',),
           ),
-          const Text('the most beautiful in the univesity'),
-
         ],
       ),
     );
