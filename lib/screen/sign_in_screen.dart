@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ResetPasswordScreen extends StatelessWidget {
-  const ResetPasswordScreen({super.key});
+class SignInScreen extends StatelessWidget {
+  const SignInScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,10 +10,10 @@ class ResetPasswordScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: Text('This is Reset Start Screen',),
+            child: Text(
+              'Sign in',
+            ),
           ),
-          const Text('the most beautiful in the univesity'),
-
         ],
       ),
     );

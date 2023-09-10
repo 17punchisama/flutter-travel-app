@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app_project/screen/home_screen.dart';
 import 'package:travel_app_project/screen/reset_password_screen.dart';
+import 'package:travel_app_project/screen/sign_in_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -155,9 +157,14 @@ class StartScreen extends StatelessWidget {
                 ),
                 ElevatedButton(
                   //create Log in button
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.black,
+                    backgroundColor: Colors.black,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(7.0),
                     ),
@@ -200,7 +207,13 @@ class StartScreen extends StatelessWidget {
                       ),
                     ),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => SignInScreen()),
+                        );
+                      },
                       style: TextButton.styleFrom(
                         textStyle: const TextStyle(fontSize: 16),
                       ),
