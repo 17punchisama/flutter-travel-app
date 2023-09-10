@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:travel_app_project/screen/reset_password_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
