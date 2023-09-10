@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/travel_app/travel_with_friends/travel_app_project/windows"
+    "cmake.sourceDirectory": "C:/travel_app/travel_with_friends/travel_app_project/windows",
+    "cmake.configureOnOpen": false
 }
