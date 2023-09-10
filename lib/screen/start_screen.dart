@@ -176,8 +176,10 @@ class StartScreen extends StatelessWidget {
               TextButton(
                 //create text button for 'Reset Password'
                 onPressed: () {
-                  Navigator.push(context,
-                   MaterialPageRoute(builder: (context) => const ResetPasswordScreen()),);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ResetPasswordScreen()),
+                  );
                 },
                 style: TextButton.styleFrom(
                   textStyle: const TextStyle(fontSize: 16),
