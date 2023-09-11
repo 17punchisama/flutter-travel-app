@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
       // Define your app's initial route here
       initialRoute: '/',
       routes: {
-        '/': (context) => StartScreen(),
-        '/reset_password': (context) => ResetPasswordScreen(),
+        '/': (context) => const StartScreen(),
+        '/reset_password': (context) => const ResetPasswordScreen(),
         // Add more routes as needed for your app
       },
     );
