@@ -24,7 +24,7 @@ class SignInScreen extends StatelessWidget {
             minimumSize: const Size(320, 45),
           ),
           child: const Text(
-            'Sing in',
+            'Sign in',
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.bold,
